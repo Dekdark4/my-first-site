@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #e0e0e0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.header-menu {
+  margin-bottom: 10vh;
+}
+
+.header-container {
+  display: flex;
+}
+
+.menu-logo {
+  font-weight: 1000;
+}
