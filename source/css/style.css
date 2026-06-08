@@ -9,7 +9,7 @@ a {
   color: inherit;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Isoveka";
   src:
     local("Isoveka"),
@@ -79,7 +79,7 @@ a {
     url("../fonts/Isoveka_font/Iosevka-Heavy.ttc") format("truetype");
   font-weight: 900;
   font-style: normal;
-}
+} */
 
 body {
   background-color: #e0e0e0;
