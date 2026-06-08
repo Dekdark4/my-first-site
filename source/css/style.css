@@ -16,6 +16,9 @@ body {
 }
 
 .header-menu {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 10vh;
   position: fixed;
   top: 2vh;
