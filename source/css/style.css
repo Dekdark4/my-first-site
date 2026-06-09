@@ -181,6 +181,47 @@ body {
 
 }
 
+.social-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+  flex-direction: column;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.dropdown-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.dropdown-link:hover {
+  color: rgb(29, 85, 85);
+}
+
+.dropdown-menu.show {
+  display: flex;
+}
+
 .footer-link-image {
   width: clamp(2.5rem, 12vw, 5rem);
   height: clamp(2.5rem, 12vw, 5rem);
