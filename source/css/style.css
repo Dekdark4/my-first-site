@@ -82,6 +82,11 @@ body {
   font-family: "Ubuntu";
   font-weight: 400;
   font-size: clamp(1rem, 2.5vw, 1.5rem);
+  padding-top: clamp(80px, 15vh, 120px);
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header-menu {
@@ -116,13 +121,13 @@ body {
 }
 
 .container {
+  flex: 1;
   margin: 0 auto;
   width: clamp(300px ,75%, 65ch);
 }
 
 .main-content {
   height: 100%;
-  margin-top: clamp(80px, 15vh, 120px);
 }
 
 .section-description {
@@ -159,10 +164,9 @@ body {
 
 .footer {
   width: 100%;
-  height: clamp(5ch ,15vh, 50ch);
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  height: clamp(5rem, 15vh, 8rem);
+  margin-top: auto;
+  flex-shrink: 0;
 
   background-color: rgb(29, 85, 85);
 
