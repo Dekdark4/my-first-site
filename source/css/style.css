@@ -214,7 +214,7 @@ body {
   font-size: 0.9rem;
 }
 
-.dropdown-link::hover {
+.dropdown-link:hover {
   color: rgb(29, 85, 85);
 }
 
