@@ -159,10 +159,25 @@ body {
 
 .footer {
   width: 100%;
-  height: clamp(5ch ,20vh, 50ch);
+  height: clamp(5ch ,15vh, 50ch);
   position: absolute;
   left: 0;
   bottom: 0;
 
-  background-color: rgb(29, 46, 46);
+  background-color: rgb(29, 85, 85);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-link {
+
+}
+
+.footer-link-image {
+  width: clamp(2.5rem, 12vw, 5rem);
+  height: clamp(2.5rem, 12vw, 5rem);
+  object-fit: contain;
+  flex-shrink: 0;
 }
