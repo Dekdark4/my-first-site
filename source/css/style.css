@@ -153,7 +153,7 @@ body {
   height: clamp(2.5rem, 12vw, 5rem);
   object-fit: contain;
   flex-shrink: 0;
-  border: 2px solid black;
+  border: 4px solid rgb(71, 69, 69);
   border-radius: 10%;
   padding: 4px;
   margin-right: clamp(5px, 5vw, 80px);
