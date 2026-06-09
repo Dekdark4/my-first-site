@@ -156,3 +156,13 @@ body {
   font-size: clamp(1rem, 2.5vw, 2.5rem);
   text-align: left;
 }
+
+.footer {
+  width: 100%;
+  height: clamp(5ch ,20vh, 50ch);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  background-color: rgb(29, 46, 46);
+}
