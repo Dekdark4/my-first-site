@@ -138,6 +138,12 @@ body {
   width: 100%;
 }
 
+.section-themes {
+  margin-top: clamp(10px, 10vh, 50px);
+  height: 100%;
+  width: 100%;
+}
+
 .description {
   height: 100%;
   width: 100%;
@@ -146,6 +152,13 @@ body {
   align-items: center;
   gap: clamp(5px, 2vw, 20px);
   margin-bottom: clamp(7px, 7vw, 30px);
+}
+
+.themes {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  
 }
 
 .description-image {
