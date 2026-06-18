@@ -204,11 +204,19 @@ body {
   flex-direction: column;
 }
 
+.git-content h1 {
+  margin-bottom: clamp(2rem, 3vh, 3rem);
+}
+
 .git-content h2 {
   margin-bottom: clamp(1rem, 2vh, 3rem);
 }
 
 .git-content p {
+  margin-bottom: clamp(1rem, 2vh, 3rem);
+}
+
+.git-content > section > p:last-child {
   margin-bottom: clamp(1rem, 5vh, 3rem);
 }
 
