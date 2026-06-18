@@ -199,6 +199,19 @@ body {
   text-align: left;
 }
 
+.git-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.git-content h2 {
+  margin-bottom: clamp(1rem, 2vh, 3rem);
+}
+
+.git-content p {
+  margin-bottom: clamp(1rem, 5vh, 3rem);
+}
+
 .footer {
   width: 100%;
   height: clamp(5rem, 15vh, 8rem);
