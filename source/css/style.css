@@ -125,7 +125,7 @@ body {
 .container {
   flex: 1;
   margin: 0 auto;
-  width: clamp(300px ,75%, 65ch);
+  width: clamp(300px, 75%, 65ch);
 }
 
 .main-content {
